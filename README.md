@@ -166,3 +166,11 @@ setup.sh           fetch what git deliberately excludes
   the author's site — it cannot run on macOS or be scripted. That is why the ruby LRC
   is produced here and the burning is done through libass.
 - Nothing in this repo is a redistribution of any song, lyric or video.
+
+## License
+
+MIT — see [LICENSE](LICENSE). Covers the code in this repo only. Neither upstream
+project is vendored: `setup.sh` clones
+[FA-Kara](https://github.com/moriwx/FA-Kara) and
+[karaoke-video-maker](https://github.com/Mihaly-Ma/karaoke-video-maker) at install
+time, and each carries its own license.
