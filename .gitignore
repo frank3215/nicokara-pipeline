@@ -1,0 +1,26 @@
+# --- payload: never commit lyrics, media or generated subtitles ---------------
+# These carry the song text and the source video, so publishing them would be
+# redistribution. Keep the repo a pure toolchain.
+work/
+*.mp4
+*.mkv
+*.wav
+*.ass
+*.lrc
+*.srt
+
+# --- third-party checkouts fetched by setup.sh -------------------------------
+ref/
+
+# --- binaries downloaded by setup.sh -----------------------------------------
+bin/
+
+# --- python / caches / models ------------------------------------------------
+.venv/
+.hf/
+.torch/
+.nltk_data/
+.cache/
+__pycache__/
+*.py[cod]
+.DS_Store

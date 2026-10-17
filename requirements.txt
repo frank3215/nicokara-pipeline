@@ -1,0 +1,19 @@
+# Runtime deps for the nicokara pipeline.
+# torch/torchaudio: MMS_FA forced alignment and demucs separation.
+# Pillow/librosa/soundfile: audio IO and the metrics probes.
+# pykakasi/janome/nltk/pypinyin/pyphen: reading (furigana) generation.
+numpy>=1.26
+Pillow>=10
+librosa>=0.10
+soundfile>=0.12
+torch>=2.2
+torchaudio>=2.2
+transformers>=4.40
+huggingface_hub>=0.23
+demucs>=4.0
+pykakasi>=2.2
+janome>=0.5
+nltk>=3.8
+pypinyin>=0.51
+pyphen>=0.14
+imageio-ffmpeg>=0.5
